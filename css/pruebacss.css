@@ -1,0 +1,96 @@
+.title {
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  margin: 0 auto;
+  color: #58d496;
+  text-align: center;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: "Didot", cursive;
+  font-size: 80px;
+  border-radius: 1em;
+  display: block;
+  background-color: #131010; }
+
+#navitem {
+  color: #463d3d;
+  font-family: "Trebuchet MS";
+  font-size: 20px; }
+
+.logo {
+  width: 80px;
+  height: 50px;
+  margin-top: 7px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  animation: bounceIn 0.6s;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(0.8, 1.8, 0.75, 0.75);
+  cursor: pointer;
+  border-radius: 100%;
+  float: left; }
+
+.logo:hover {
+  transform: rotate(10deg) scale(1.1); }
+
+.carousel-inner {
+  height: 700px;
+  padding: 40px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 80px;
+  grid-template-rows: 80px;
+  grid-template-areas: "Footer Footer Footer"; }
+
+.item1 {
+  background-color: #131010;
+  grid-area: Footer;
+  margin: 5px;
+  font-size: 20px;
+  padding: 15px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .item1 .twitter, .item1 .facebook, .item1 .instagram {
+    color: #58d496;
+    padding: 40px;
+    font-family: Verdana, cursive; }
+
+.row {
+  padding: 20px;
+  margin: 15px; }
+
+.row div a {
+  background-color: #131010;
+  color: #58d496;
+  font-size: 20px;
+  float: right; }
+
+.card-img-top {
+  width: 600px; }
+
+form {
+  padding: 20px;
+  padding-right: 170px;
+  margin: 20px; }
+
+.form button {
+  float: right; }
+
+.formulario {
+  float: right; }
+
+#boton {
+  float: right;
+  background-color: #131010;
+  color: #58d496; }
+
+.imagenvaca {
+  margin: 20px;
+  height: 500px; }
+
+#demo {
+  color: #58d496; }

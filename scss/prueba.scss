@@ -1,0 +1,136 @@
+@import "variables.scss";
+
+
+    .title{
+        letter-spacing: 0;
+        padding: .25em 0 .325em;
+        margin: 0 auto;
+        color:rgb(88, 212, 150);
+        text-align: center;
+        font-weight:lighter;
+        font-style:normal;
+        font-family: $letraTitulo, cursive;
+        font-size: $resta;
+        border-radius: 1em;
+        display: block;
+        background-color: rgb(19, 16, 16);
+      
+      }
+      @mixin navBar ($colorDeLetra, $tipoDeLetra,$tamanioLetra){
+        color: $colorDeLetra;
+        font-family: $tipoDeLetra;
+        font-size: $tamanioLetra;
+
+
+       
+    }
+      #navitem{
+        
+        @include navBar(rgb(70, 61, 61), 'Trebuchet MS', 20px);
+        
+      }
+     
+      .logo {
+          width: $resta;
+          height: 50px;
+          margin-top: 7px;
+          margin-right: 5px;
+          margin-left: 5px;
+          margin-bottom: 5px;
+          animation: bounceIn 0.6s;
+          transform: rotate(0deg) scale(1) translateZ(0);
+          transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+          cursor: pointer;
+          border-radius: 100%;
+          float: left;
+    
+        }
+        
+        .logo:hover {
+          transform: rotate(10deg) scale(1.1);
+        }
+        
+    .carousel-inner {
+       height: 700px; 
+       padding: 40px;
+      
+      }
+      .grid {
+        display: grid;  
+        grid-template-columns: $resta;             
+        grid-template-rows: $resta;
+        grid-template-areas: "Footer Footer Footer";
+    }
+    .item1{
+        background-color: rgb(19, 16, 16);
+        grid-area: Footer;
+        margin: 5px;
+        font-size: 20px;
+        padding: 15px;
+        color: black;
+        display: flex;  
+        flex-direction: row; 
+        justify-content: space-between;
+        .twitter{
+            color:rgb(88, 212, 150);
+            padding: 40px;
+            font-family: $letraFooter, cursive;
+        };
+        .facebook{
+           @extend .twitter;
+        }
+        .instagram{
+            @extend .twitter;
+        }
+    }    
+    
+    .row{
+        padding:20px;
+        margin: 15px;
+    }
+    .row div a{
+        background-color: rgb(19, 16, 16);
+        color:rgb(88, 212, 150);
+        font-size: 20px;
+        float:right;
+    }
+    .card-img-top{
+        width: 600px;
+    }
+    form{
+        padding:20px;
+        padding-right: 170px;
+        margin: 20px;
+        
+       
+       
+    }
+    
+    .form button{
+        float:right;
+    }
+    .formulario{
+        float:right;
+        
+    }
+    #boton{
+        float:right;
+        background-color: rgb(19, 16, 16);
+        color:rgb(88, 212, 150);
+    }
+    .imagenvaca{
+        margin:20px;
+        height:500px;
+        
+    }
+    #demo{
+        
+        color:rgb(88, 212, 150);
+    }
+
+//MEDIA QUERIES
+@media only screen and (max-width: 1300px){}
+@media only screen and (max-width: 1100px){}
+@media only screen and (max-width: 992px){}
+@media only screen and (max-width: 768px){}
+
