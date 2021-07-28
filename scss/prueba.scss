@@ -3,7 +3,7 @@
 
     .title{
         letter-spacing: 0;
-       
+        padding: 20px;
         margin: 0 auto;
         color:rgb(88, 212, 150);
         text-align: center;
@@ -20,6 +20,7 @@
         color: $colorDeLetra;
         font-family: $tipoDeLetra;
         font-size: $tamanioLetra;
+        padding: 20px;
         
 
        
@@ -55,7 +56,7 @@
         
     .carousel-inner {
        height: 700px; 
-       padding: 80px;
+       padding: 50px;
       
       }
       .grid {
