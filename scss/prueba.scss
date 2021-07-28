@@ -3,7 +3,7 @@
 
     .title{
         letter-spacing: 0;
-        padding: 40px;
+        padding: 20px;
         margin: 0 auto;
         color:rgb(88, 212, 150);
         text-align: center;
@@ -20,11 +20,12 @@
         color: $colorDeLetra;
         font-family: $tipoDeLetra;
         font-size: $tamanioLetra;
-        padding: 40px;
-
+        padding: 20px;
+        
 
        
     }
+   
       #navitem{
         
         @include navBar(rgb(70, 61, 61), 'Trebuchet MS', 20px);
@@ -33,8 +34,8 @@
      
       .logo {
           width: $resta;
-          height: 150px;
-          width: 150px;
+          height: 100px;
+          width: 100px;
           margin-top: 7px;
           margin-right: 5px;
           margin-left: 5px;
