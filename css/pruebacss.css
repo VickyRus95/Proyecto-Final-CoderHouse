@@ -1,6 +1,6 @@
 .title {
   letter-spacing: 0;
-  padding: 25px;
+  padding: 40px;
   margin: 0 auto;
   color: #58d496;
   text-align: center;
@@ -15,11 +15,13 @@
 #navitem {
   color: #463d3d;
   font-family: "Trebuchet MS";
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 40px; }
 
 .logo {
   width: 80px;
-  height: 50px;
+  height: 150px;
+  width: 150px;
   margin-top: 7px;
   margin-right: 5px;
   margin-left: 5px;

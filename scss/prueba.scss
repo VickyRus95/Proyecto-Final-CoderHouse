@@ -3,7 +3,7 @@
 
     .title{
         letter-spacing: 0;
-        padding: 25px;
+        padding: 40px;
         margin: 0 auto;
         color:rgb(88, 212, 150);
         text-align: center;
@@ -20,6 +20,7 @@
         color: $colorDeLetra;
         font-family: $tipoDeLetra;
         font-size: $tamanioLetra;
+        padding: 40px;
 
 
        
@@ -32,7 +33,8 @@
      
       .logo {
           width: $resta;
-          height: 50px;
+          height: 150px;
+          width: 150px;
           margin-top: 7px;
           margin-right: 5px;
           margin-left: 5px;
@@ -43,6 +45,7 @@
           cursor: pointer;
           border-radius: 100%;
           float: left;
+         
     
         }
         
