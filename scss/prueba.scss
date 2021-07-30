@@ -1,9 +1,8 @@
 @import "variables.scss";
 
-
     .title{
         letter-spacing: 0;
-        padding: 20px;
+        padding: 30px;
         margin: 0 auto;
         color:rgb(88, 212, 150);
         text-align: center;
@@ -12,7 +11,8 @@
         font-family: $letraTitulo, cursive;
         font-size: $resta;
         border-radius: 1em;
-        display: block;
+        
+        display:inline-block;
         background-color: rgb(19, 16, 16);
       
       }
@@ -33,9 +33,9 @@
       }
      
       .logo {
-          width: $resta;
+          
           height: 100px;
-          width: 100px;
+          width: 120px;
           margin-top: 7px;
           margin-right: 5px;
           margin-left: 5px;
@@ -46,7 +46,7 @@
           cursor: pointer;
           border-radius: 100%;
           float: left;
-         
+        
     
         }
         

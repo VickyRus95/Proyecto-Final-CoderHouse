@@ -1,15 +1,15 @@
 .title {
   letter-spacing: 0;
-  padding: 20px;
+  padding: 30px;
   margin: 0 auto;
   color: #58d496;
   text-align: center;
   font-weight: lighter;
   font-style: normal;
   font-family: "Didot", cursive;
-  font-size: 80px;
+  font-size: 40px;
   border-radius: 1em;
-  display: block;
+  display: inline-block;
   background-color: #131010; }
 
 #navitem {
@@ -19,9 +19,8 @@
   padding: 20px; }
 
 .logo {
-  width: 80px;
   height: 100px;
-  width: 100px;
+  width: 120px;
   margin-top: 7px;
   margin-right: 5px;
   margin-left: 5px;
@@ -42,8 +41,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 80px;
-  grid-template-rows: 80px;
+  grid-template-columns: 40px;
+  grid-template-rows: 40px;
   grid-template-areas: "Footer Footer Footer"; }
 
 .item1 {
