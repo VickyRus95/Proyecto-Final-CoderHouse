@@ -13,8 +13,9 @@
   font-family: "Didot", cursive;
   font-size: 40px;
   border-radius: 1em;
-  display: inline-block;
-  background-color: #131010; }
+  border-style: dotted;
+  border-color: #58d496;
+  display: inline-block; }
 
 #navitem {
   color: #463d3d;

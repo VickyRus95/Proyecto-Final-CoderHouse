@@ -15,9 +15,10 @@
         font-family: $letraTitulo, cursive;
         font-size: $resta;
         border-radius: 1em;
-        
+        border-style: dotted;
+        border-color: rgb(88, 212, 150);
         display:inline-block;
-        background-color: rgb(19, 16, 16);
+       
       
       }
       @mixin navBar ($colorDeLetra, $tipoDeLetra,$tamanioLetra){
