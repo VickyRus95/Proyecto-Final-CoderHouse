@@ -1,3 +1,7 @@
+.body {
+  height: 1000px;
+  width: 1300px; }
+
 .title {
   letter-spacing: 0;
   padding: 30px;
@@ -41,24 +45,28 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 40px;
-  grid-template-rows: 40px;
+  grid-template-columns: 70px;
+  grid-template-rows: 70px;
   grid-template-areas: "Footer Footer Footer"; }
-
-.item1 {
-  background-color: #131010;
-  grid-area: Footer;
-  margin: 5px;
-  font-size: 20px;
-  padding: 15px;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  .item1 .twitter, .item1 .facebook, .item1 .instagram {
-    color: #58d496;
-    padding: 40px;
-    font-family: Verdana, cursive; }
+  .grid .item1 {
+    background-color: #131010;
+    grid-area: Footer;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: bottom;
+    padding-top: 10px; }
+    .grid .item1 .twitter, .grid .item1 .facebook, .grid .item1 .instagram {
+      color: #58d496;
+      font-family: Verdana, cursive;
+      padding-left: 50px; }
+    .grid .item1 .facebook {
+      padding-right: 50px; }
+    .grid .item1 .instagram {
+      padding-right: 50px; }
 
 .row {
   padding: 20px;
