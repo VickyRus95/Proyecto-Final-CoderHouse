@@ -1,7 +1,7 @@
 @import "./variables";
 .body{
     height:1000px;
-    width:1300px;
+    
 }
 
     .title{
@@ -61,10 +61,11 @@
         }
         
     .carousel-inner {
-       height: 700px; 
+       height: 650px;
        padding: 30px;
       
       }
+    
       .grid {
         display: grid;  
         grid-template-columns: 70px;          
@@ -83,18 +84,20 @@
         justify-content: space-between;
         vertical-align: bottom;
         padding-top:10px;
+        align-items:center;
         .twitter{
             color:rgb(88, 212, 150);
             font-family: $letraFooter, cursive;
             padding-left: 30px;
+            padding-right:30px;
         };
         .facebook{
            @extend .twitter;
-           padding-right:30px;
+           
         }
         .instagram{
             @extend .twitter;
-            padding-right:30px;
+          
         }
     }    
     }
@@ -144,7 +147,63 @@
 
 //MEDIA QUERIES
 @media only screen and (max-width: 1300px){}
-@media only screen and (max-width: 1100px){}
-@media only screen and (max-width: 992px){}
-@media only screen and (max-width: 768px){}
-
+@media only screen and (max-width: 1100px){
+    .card-img-top{
+        width: 500px;
+    }
+    .imagenvaca{
+        margin:20px;
+        height:400px;
+        
+    }
+    .carousel-inner {
+        height: 500px;
+        padding: 30px;
+       
+       }
+}
+@media only screen and (max-width: 992px){
+    .card-img-top{
+        width: 400px;
+    }
+    .imagenvaca{
+        margin:20px;
+        height:300px;
+        
+    }
+    .carousel-inner {
+        height: 400px;
+        padding: 30px;
+       
+       }
+}
+@media only screen and (max-width: 768px){
+    .card-img-top{
+        width: 300px;
+    }
+    .imagenvaca{
+        margin:20px;
+        height:200px;
+        
+    }
+    .carousel-inner {
+        height: 300px;
+        padding: 30px;
+       
+       }
+}
+@media only screen and (max-width: 500px){
+    .card-img-top{
+        width: 200px;
+    }
+    .imagenvaca{
+        margin:20px;
+        height:100px;
+        
+    }
+    .carousel-inner {
+        height: 200px;
+        padding: 30px;
+       
+       }
+}
