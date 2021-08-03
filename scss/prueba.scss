@@ -83,7 +83,7 @@
         flex-direction: row; 
         justify-content: space-between;
         vertical-align: bottom;
-        padding-top:10px;
+        padding:10px;
         align-items:center;
         .twitter{
             color:rgb(88, 212, 150);
@@ -116,29 +116,30 @@
     }
     form{
         padding:20px;
-        padding-right: 170px;
         margin: 20px;
-        
-       
-       
+        float:left;
+    }
+    .wrapper {
+        text-align : center;
+    }
+    .image, .form {
+        display: inline-block;
+        vertical-align: top;
     }
     
     .form button{
         float:right;
     }
-    .formulario{
-        float:right;
-        
-    }
+
     #boton{
         float:right;
         background-color: rgb(19, 16, 16);
         color:rgb(88, 212, 150);
     }
     .imagenvaca{
-        margin:20px;
+        margin:10px;
         height:500px;
-        
+        padding:20px;
     }
     #demo{
         
@@ -151,58 +152,29 @@
     .card-img-top{
         width: 500px;
     }
-    .imagenvaca{
-        margin:20px;
-        height:400px;
-        
-    }
     .carousel-inner {
         height: 500px;
         padding: 30px;
        
-       }
+    }
+   
 }
 @media only screen and (max-width: 992px){
     .card-img-top{
         width: 400px;
     }
-    .imagenvaca{
-        margin:20px;
-        height:300px;
-        
-    }
+    
     .carousel-inner {
         height: 400px;
         padding: 30px;
-       
-       }
+       }  
 }
 @media only screen and (max-width: 768px){
     .card-img-top{
         width: 300px;
     }
-    .imagenvaca{
-        margin:20px;
-        height:200px;
-        
-    }
     .carousel-inner {
         height: 300px;
-        padding: 30px;
-       
-       }
-}
-@media only screen and (max-width: 500px){
-    .card-img-top{
-        width: 200px;
-    }
-    .imagenvaca{
-        margin:20px;
-        height:100px;
-        
-    }
-    .carousel-inner {
-        height: 200px;
         padding: 30px;
        
        }
