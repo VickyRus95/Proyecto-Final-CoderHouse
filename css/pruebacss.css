@@ -79,10 +79,9 @@
 .card-img-top {
   width: 600px; }
 
-form {
+.form {
   padding: 20px;
-  margin: 20px;
-  float: left; }
+  margin: 20px; }
 
 .wrapper {
   text-align: center; }
